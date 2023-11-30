@@ -1,0 +1,20 @@
+/* recurve ui 重置样式*/
+.genFromComponent {
+    &.rd-form--label-top {
+        .rd-form-item__label {
+            line-height: 26px;
+        }
+        .genFromWidget_des {
+            margin-bottom: 4px;
+            margin-top: -4px;
+        }
+    }
+    .rd-checkbox, .rd-color-picker{
+        vertical-align: top;
+    }
+    .formFooter_item {
+        .rd-form-item__content {
+            justify-content: flex-end;
+        }
+    }
+}
